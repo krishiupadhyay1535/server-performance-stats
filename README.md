@@ -1,4 +1,4 @@
-https://github.com/krishiupadhyay1535/server-performance-stats
+https://roadmap.sh/projects/server-stats
 
 # Server Performance Stats
 
