@@ -1,3 +1,5 @@
+https://github.com/krishiupadhyay1535/server-performance-stats
+
 # Server Performance Stats
 
 This project is a Bash shell script that analyzes basic Linux server performance statistics.
