@@ -18,4 +18,4 @@ This project is a Bash shell script that analyzes basic Linux server performance
 
 ```bash
 chmod +x server_performance.sh
-./server_performance.sh
+./server-stats.sh
