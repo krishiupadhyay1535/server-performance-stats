@@ -15,7 +15,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Give execute permission
-        run: chmod +x server-performance-stats.sh
+        run: chmod +x server-performance-stats
 
       - name: Run server performance script
-        run: ./server-performance-stats.sh
+        run: ./server-performance-stats
