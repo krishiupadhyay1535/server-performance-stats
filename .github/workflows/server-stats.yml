@@ -1,4 +1,4 @@
-name: Server Performance Stats
+name: Server Performance Stats (Debug)
 
 on:
   push:
@@ -7,15 +7,16 @@ on:
   workflow_dispatch:
 
 jobs:
-  run-stats:
+  debug:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Give execute permission
-        run: chmod +x server-performance-stats
-
-      - name: Run server performance script
-        run: ./server-performance-stats
+      - name: Show files in repo
+        run: |
+          echo "Current directory:"
+          pwd
+          echo "Files:"
+          ls -la
