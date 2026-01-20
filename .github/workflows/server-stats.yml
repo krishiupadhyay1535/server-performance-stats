@@ -1,0 +1,21 @@
+name: Server Performance Stats
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  run-stats:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Give execute permission
+        run: chmod +x server-performance-stats.sh
+
+      - name: Run server performance script
+        run: ./server-performance-stats.sh
