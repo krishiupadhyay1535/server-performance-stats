@@ -21,3 +21,5 @@ This project is a Bash shell script that analyzes basic Linux server performance
 ```bash
 chmod +x server_performance.sh
 ./server-stats.sh
+
+I also add github action so also you can see how it's works 
